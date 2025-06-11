@@ -104,7 +104,7 @@ quantity_entry = tk.Entry(root, font=("Arial", 12), width=50, bg="#fcf3cf")
 quantity_entry.pack(pady=5)
 
 tk.Button(root, text="Add Items", command=add_items, bg="#3498db", fg="white", width=20, font=("Arial", 11)).pack(pady=10)
-tk.Button(root, text="Checkout", command=calculate_total, bg="#27ae60", fg="white", width=20, font=("Arial", 11)).pack()
+tk.Button(root, text="Checkout All Items", command=calculate_total, bg="#27ae60", fg="white", width=20, font=("Arial", 11)).pack()
 tk.Button(root, text="Clear All", command=clear_all, bg="#e74c3c", fg="white", width=20, font=("Arial", 11)).pack(pady=5)
 
 result_label = tk.Label(root, text="", bg="white", font=("Courier New", 11), justify="left", anchor="w", relief="solid", bd=1, padx=10, pady=10, width=60, height=15)
